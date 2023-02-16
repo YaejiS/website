@@ -1,0 +1,42 @@
+
+
+body {
+  background-color: rgb(242, 249, 250);
+  font-family: 'Handlee', cursive;
+}
+
+a {
+  color: black;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  margin: 10px 5px;
+  text-decoration: unset;
+  position: relative;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+a:hover {
+  top: -2px;
+  background-color: rgb(173, 222, 255);
+}
+
+.portrait {
+  border-radius: 5%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.flex-row {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.content {
+  width: 300px;
+  text-align: center;
+  padding: 30px;
+}
